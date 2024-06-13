@@ -1,52 +1,22 @@
 {
   "resumeTitle": {
-    "title": "Hong Gil Dong"
+    "title": ""
   },
 
   "information": {
-    "name": "홍길동",
+    "name": "김정우",
     "contact": [
-      { "id": 0, "name": "Email", "href": "honggildong@gmail.com", "isEmail": true },
-      { "id": 1, "name": "Github", "href": "https://github.com/honggildong" },
-      { "id": 2, "name": "Blog", "href": "https://velog.io/@honggildong" }
+      { "id": 0, "name": "Email", "href": "rlawjddn0623@gmail.com", "isEmail": true },
+      { "id": 1, "name": "Github", "href": "https://github.com/kimjw0623" }
     ]
   },
 
   "workExperience": [
     {
       "id": 0,
-      "name": "커피프린스 1호점",
-      "position": "Front-end Engineer",
-      "period": ["2019. 01", "2019. 09"]
-    },
-    {
-      "id": 1,
-      "name": "커피프린스 2호점",
-      "position": "바리스타",
-      "period": ["2022. 01", "now"]
-    }
-  ],
-
-  "project": [
-    {
-      "id": 0,
-      "name": "첫번째 팀 프로젝트",
-      "description": "프로젝트에 대한 간단한 설명을 적을 수 있습니다. 어떤 프로젝트인지 주제나 강조하고 싶은 부분을 적어보세요.",
-      "webUrl": "https://github.com/sjoleee/",
-      "repoUrl": "https://github.com/sjoleee/",
-      "isTeam": true,
-      "period": ["2022. 07", "2022. 09"],
-      "stack": ["사용한 기술을 적어주세요", "React.js", "JavaScript", "styled-components", "Recoil"]
-    },
-    {
-      "id": 1,
-      "name": "첫번째 개인 프로젝트",
-      "description": "프로젝트에 대한 간단한 설명을 적을 수 있습니다. 어떤 프로젝트인지 주제나 강조하고 싶은 부분을 적어보세요.",
-      "webUrl": "https://github.com/sjoleee/",
-      "repoUrl": "https://github.com/sjoleee/",
-      "isTeam": false,
-      "period": ["2022. 10", "2022. 11"],
-      "stack": ["JavaScript", "HTML/CSS"]
+      "name": "로민",
+      "position": "Machine Learning Engineer",
+      "period": ["2023. 03", "now"]
     }
   ],
 
@@ -65,43 +35,69 @@
     }
   ],
 
-  "education": [
+  "project": [
     {
       "id": 0,
-      "name": "첫번째 교육",
-      "period": ["2013. 02", "2020. 02"],
-      "description": "첫번째 교육에 대한 간략한 설명"
+      "name": "LOL Champion Embedding",
+      "description": "개인 프로젝트",
+      "webUrl": "https://github.com/sjoleee/",
+      "repoUrl": "https://github.com/sjoleee/",
+      "isTeam": false,
+      "period": ["2022. 07", "2022. 09"],
+      "stack": ["Celenium","Python","Pytorch"]
     },
     {
       "id": 1,
-      "name": "두번째 교육",
-      "period": ["2013. 02", "2020. 02"],
-      "description": "두번째 교육에 대한 간략한 설명"
+      "name": "Synctube",
+      "description": "프로젝트에 대한 간단한 설명을 적을 수 있습니다. 어떤 프로젝트인지 주제나 강조하고 싶은 부분을 적어보세요.",
+      "webUrl": "https://github.com/sjoleee/",
+      "repoUrl": "https://github.com/sjoleee/",
+      "isTeam": false,
+      "period": ["2022. 10", "2022. 11"],
+      "stack": ["JavaScript", "HTML/CSS", "Express"]
+    }
+  ],
+
+  "publication": [
+    {
+      "id": 0,
+      "name": "Joint Demosaicing and Deghosting of Time-Varying Exposures for Single-Shot HDR Imaging",
+      "period": ["2022. 03", "2023. 03"],
+      "description": "Jungwoo Kim, Min H. Kim (2023) “Joint Demosaicing and Deghosting of Time-Varying Exposures for Single-Shot HDR Imaging,” Proc. IEEE International Conference on Computer Vision  (ICCV 2023), Paris, France, Oct. 2. 6, 2023"
+    }
+  ],
+
+  "education": [
+    {
+      "id": 0,
+      "name": "KAIST 전산학부 학사과정",
+      "period": ["2017. 03", "2021. 02"],
+      "description": "KAIST 전산학부 학사과정"
+    },
+    {
+      "id": 1,
+      "name": "KAIST 전산학부 석사과정",
+      "period": ["2021. 03", "2023. 02"],
+      "description": "Computer Vision and Machine Learning"
     }
   ],
 
   "certificate": [
     {
       "id": 0,
-      "name": "TOEIC 1000점",
-      "date": "2019. 07. 28",
-      "organizer": "ETS"
-    },
-    {
-      "id": 1,
-      "name": "OPIC IH",
-      "date": "2019. 07. 28",
-      "organizer": "ETS"
+      "name": "Certified Kubernetes Administrator (CKA)",
+      "date": "2024. 02. 20",
+      "organizer": "Linux Foundation"
     }
   ],
-
+  
   "award": [
     {
       "id": 0,
-      "name": "첫번째 수상",
-      "date": "2019. 07. 28",
-      "organizer": "수여기관",
-      "description": "첫번째 수상에 대한 간략한 설명"
+      "name": "",
+      "date": "",
+      "organizer": "",
+      "description": ""
     }
   ]
 }

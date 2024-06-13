@@ -1,7 +1,3 @@
-- Hoo-ooh-ooh-ooh
-- Hoo-ooh-ooh-ooh
-- Stay in the middle
-- Like you a little
-- Don't want no riddle
-- 말해줘 say it back, oh, say it ditto
-- 아침은 너무 멀어 so say it ditto
+- 머신러닝 기반 컴퓨터 비전 분야로 석사과정 졸업 후 전문연구요원으로 복무중인 머신러닝 엔지니어입니다.
+- OCR 및 문서 이해에 필요한 vision, NLP, multi-modal 모델의 설계, 학습, 추론 과정을 구현하고 개선하는 업무를 맡고 있습니다.
+- 머신러닝 모델의 파이프라인 구성과 배포 최적화에 특히 관심이 많습니다.

@@ -49,6 +49,12 @@ export interface DataProps {
     description: string;
     period: string[];
   }[];
+  publication: {
+    id: number;
+    name: string;
+    description: string;
+    period: string[];
+  }[];
   education: {
     id: number;
     name: string;
