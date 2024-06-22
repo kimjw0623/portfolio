@@ -15,23 +15,8 @@
     {
       "id": 0,
       "name": "로민",
-      "position": "Machine Learning Engineer",
+      "position": "ML Engineer",
       "period": ["2023. 03", "now"]
-    }
-  ],
-
-  "activity": [
-    {
-      "id": 0,
-      "name": "첫번째 활동",
-      "period": ["2022. 06", "2022. 08"],
-      "description": "첫번째 활동에 대한 간략한 설명"
-    },
-    {
-      "id": 1,
-      "name": "두번째 활동",
-      "period": ["2022. 06", "2022. 08"],
-      "description": "두번째 활동에 대한 간략한 설명"
     }
   ],
 
@@ -49,11 +34,11 @@
     {
       "id": 1,
       "name": "Synctube",
-      "description": "프로젝트에 대한 간단한 설명을 적을 수 있습니다. 어떤 프로젝트인지 주제나 강조하고 싶은 부분을 적어보세요.",
+      "description": "Youtube 영상을 같이 시청 가능한 서비스",
       "webUrl": "https://github.com/sjoleee/",
       "repoUrl": "https://github.com/sjoleee/",
       "isTeam": false,
-      "period": ["2022. 10", "2022. 11"],
+      "period": ["2024. 3", "2024. 6"],
       "stack": ["JavaScript", "HTML/CSS", "Express"]
     }
   ],
