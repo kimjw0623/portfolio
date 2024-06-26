@@ -16,7 +16,7 @@
       "id": 0,
       "name": "로민",
       "position": "ML Engineer",
-      "period": ["2023. 03", "now"]
+      "period": ["2023. 03", "Present"]
     }
   ],
 
@@ -24,9 +24,8 @@
     {
       "id": 0,
       "name": "LOL Champion Embedding",
-      "description": "개인 프로젝트",
-      "webUrl": "https://github.com/sjoleee/",
-      "repoUrl": "https://github.com/sjoleee/",
+      "description": "게임 내 챔피언들을 clustring하는 프로젝트",
+      "repoUrl": "https://github.com/kimjw0623/lol_champ_embedding/",
       "isTeam": false,
       "period": ["2022. 07", "2022. 09"],
       "stack": ["Celenium","Python","Pytorch"]
@@ -34,9 +33,9 @@
     {
       "id": 1,
       "name": "Synctube",
-      "description": "Youtube 영상을 같이 시청 가능한 서비스",
-      "webUrl": "https://github.com/sjoleee/",
-      "repoUrl": "https://github.com/sjoleee/",
+      "description": "사람들과 하나의 Youtube 영상을 동시에 같이 시청 가능한 서비스",
+      "webUrl": "https://github.com/kimjw0623/",
+      "repoUrl": "https://github.com/kimjw0623/synctube-implementation/",
       "isTeam": false,
       "period": ["2024. 3", "2024. 6"],
       "stack": ["JavaScript", "HTML/CSS", "Express"]
