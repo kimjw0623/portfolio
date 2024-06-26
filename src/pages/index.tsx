@@ -4,7 +4,7 @@ import path from "path";
 import { NextPage } from "next";
 
 import Publication from "@/components/Publication";
-import Activity from "@/components/Activity";
+// import Activity from "@/components/Activity";
 import Certificate from "@/components/Certificate";
 import Education from "@/components/Education";
 import Footer from "@/components/Footer";
@@ -22,11 +22,11 @@ const Home: NextPage<DataProps> = ({
   information,
   workExperience,
   project,
-  activity,
+  // activity,
   publication,
   education,
   certificate,
-  award,
+  // award,
 }) => {
   return (
     <>
@@ -37,10 +37,10 @@ const Home: NextPage<DataProps> = ({
         <WorkExperience workExperience={workExperience} />
         <Publication publication={publication} />
         <Project project={project} />
-        <Activity activity={activity} />
+        {/* <Activity activity={activity} /> */}
         <Education education={education} />
         <Certificate certificate={certificate} />
-        <Award award={award} />
+        {/* <Award award={award} /> */}
       </Layout>
       <Footer contact={information.contact} name={information.name} />
     </>
