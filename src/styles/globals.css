@@ -3,6 +3,18 @@
 @tailwind utilities;
 
 @layer base {
+  .markdown {
+    line-height: 1.8; /* 줄 간격을 1.6배로 설정 */
+  }
+  
+  .markdown hr {
+    margin: 1rem ;
+  }
+
+  .markdown p {
+    margin-bottom: 0.3rem; /* 각 단락의 아래에 1.5rem의 마진을 추가 */
+  }
+
   h1 {
     @apply font-semibold text-5xl py-2;
   }
@@ -36,13 +48,13 @@
     @apply pt-4 pb-2;
   }
 
-  strong {
+  /* strong {
     @apply font-semibold;
-  }
+  } */
 
-  em {
+  /* em {
     @apply text-GRAY_HEAVY;
-  }
+  } */
 
   code {
     @apply bg-GRAY_LIGHT dark:bg-GRAY_EXTRAHEAVY  py-[2px] px-1.5 rounded-md text-xs font-medium text-PRIMARY_HEAVY dark:text-PRIMARY;

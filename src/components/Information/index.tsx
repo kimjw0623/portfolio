@@ -1,5 +1,7 @@
 import ContactItem from "../ContactItem";
+import ReactMarkdown from "react-markdown";
 import Introduce from "./Introduce";
+import remarkGfm from "remark-gfm";
 
 import { DataProps } from "@/types";
 
@@ -9,12 +11,12 @@ const Information = ({ information }: Pick<DataProps, "information">) => {
       <div className="flex flex-col gap-2">
         <h1 className="leading-[1.15]">
           {/* 포지션에 맞게 문구를 수정해주세요. 혹은, 본인이 원하는 대로 문구를 바꿔주세요. */}
-          안녕하세요,
-          <br /> 머신러닝 엔지니어 {" "}
+          
+          I am {" "}
           <span className="text-PRIMARY font-semibold">{information.name}</span>
-          입니다.
+          ML Enginner.
         </h1>
-        <div className="flex gap-1">
+        <div className="flex gap-1 h1">
           {information.contact.map((contact) => (
             <ContactItem
               key={contact.id}
@@ -26,7 +28,10 @@ const Information = ({ information }: Pick<DataProps, "information">) => {
           ))}
         </div>
       </div>
-      <Introduce markdown={information.markdown} />
+      <div className="markdown w-full">
+        <ReactMarkdown remarkPlugins={[remarkGfm]}>{information.markdown ?? ""}</ReactMarkdown>
+      </div>
+      {/* <Introduce markdown={information.markdown} /> */}
     </div>
   );
 };
