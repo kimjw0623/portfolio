@@ -21,7 +21,7 @@ const WorkExperienceItem = ({ name, position, period, markdown, imgSrc }: WorkEx
           <h3>{name}</h3>
           <div className="flex flex-col">
             <span className="m-0">{position}</span>
-            <span>{`${period[0]} - ${period[1]}`}</span>
+            <span>{`${period[0]} ~ ${period[1]}`}</span>
           </div>
         </div>
       </div>
