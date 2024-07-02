@@ -17,10 +17,10 @@ const ProjectItem = ({
   imgSrc,
 }: ProjectProps) => {
   return (
-    <div className="flex flex-col md:flex-row gap-2 md:gap-0">
+    <div className="flex flex-col md:flex-row gap-2 md:gap-6">
       <div className="flex flex-col gap-2">
         <div className="flex md:flex-col items-center md:items-start mr-4 gap-6">
-          {imgSrc && (
+          {/* {imgSrc && (
             <Image
               src={imgSrc}
               width="200"
@@ -28,7 +28,7 @@ const ProjectItem = ({
               alt={name}
               className="object-cover rounded-lg border-[1px] border-GRAY_LIGHT dark:border-white border-solid w-24 h-24"
             />
-          )}
+          )} */}
           <div className="flex flex-col gap-2">
             <div className="w-36">
               <h4>{name}</h4>
@@ -40,7 +40,7 @@ const ProjectItem = ({
           </div>
         </div>
       </div>
-      <div className="md:border-GRAY_LIGHT md:border-solid md:border-l-[1px] md:pl-4 markdown flex flex-col w-full gap-2">
+      <div className="md:pl-4 markdown flex flex-col w-full gap-2">
         <div>
           <blockquote className="whitespace-pre-wrap">{`${description}`}</blockquote>
           <div className="flex gap-1 flex-wrap">

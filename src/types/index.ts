@@ -15,6 +15,15 @@ export interface WorkExperienceProps {
   imgSrc?: string;
 }
 
+export interface PublicationProps {
+  id: number;
+  name: string;
+  description?: string;
+  position: string;
+  period: string[];
+  markdown?: string;
+}
+
 export interface ProjectProps {
   id: number;
   name: string;
@@ -43,18 +52,20 @@ export interface DataProps {
   information: InformationProps;
   workExperience: WorkExperienceProps[];
   project: ProjectProps[];
+  publication: PublicationProps[];
   // activity: {
   //   id: number;
   //   name: string;
   //   description: string;
   //   period: string[];
   // }[];
-  publication: {
-    id: number;
-    name: string;
-    description: string;
-    period: string[];
-  }[];
+  // publication: {
+  //   id: number;
+  //   name: string;
+  //   description: string;
+  //   period: string[];
+  //   markdown?: string;
+  // }[];
   education: {
     id: number;
     name: string;

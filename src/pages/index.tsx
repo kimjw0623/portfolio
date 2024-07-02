@@ -14,7 +14,7 @@ import Project from "@/components/Project";
 import ResumeTitle from "@/components/ResumeTitle";
 // import ScrollProgress from "@/components/ScrollProgress";
 import WorkExperience from "@/components/WorkExperience";
-import { DataProps, InformationProps, ProjectProps, WorkExperienceProps } from "@/types";
+import { DataProps, InformationProps, ProjectProps, WorkExperienceProps, PublicationProps } from "@/types";
 import Award from "@/components/Award";
 
 const Home: NextPage<DataProps> = ({
@@ -68,6 +68,15 @@ export const getStaticProps = async () => {
     },
   );
 
+  const publicationWithData = objectData.publication.map(
+    async (item: PublicationProps) => {
+      return getImgSrc({
+        section: "publication",
+        item: await getMd({ section: "publication", item }),
+      });
+    },
+  );
+
   const projectWithData = objectData.project.map(async (item: ProjectProps) => {
     return getImgSrc({ section: "project", item: await getMd({ section: "project", item }) });
   });
@@ -78,6 +87,7 @@ export const getStaticProps = async () => {
       information: await informationWithData,
       workExperience: await Promise.all(workExperienceWithData),
       project: await Promise.all(projectWithData),
+      publication: await Promise.all(publicationWithData),
     },
   };
 };
@@ -87,7 +97,7 @@ const getMd = async ({
   item,
 }: {
   section: string;
-  item: InformationProps | ProjectProps | WorkExperienceProps;
+  item: InformationProps | ProjectProps | WorkExperienceProps | PublicationProps;
 }) => {
   try {
     const markdownModule = await import(
@@ -105,7 +115,7 @@ const getImgSrc = async ({
   item,
 }: {
   section: string;
-  item: InformationProps | ProjectProps | WorkExperienceProps;
+  item: InformationProps | ProjectProps | WorkExperienceProps | PublicationProps;
 }) => {
   const imgSrc = `/images/${section}/${"id" in item ? item.id : "profile"}.png`;
   const filePath = path.join(process.cwd(), "public", imgSrc);

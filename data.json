@@ -24,7 +24,7 @@
     {
       "id": 0,
       "name": "LOL Champion Embedding",
-      "description": "게임 내 챔피언들을 clustring하는 프로젝트",
+      "description": "게임 내 챔피언들을 유저의 선호도에 따라 clustring 하는 프로젝트",
       "repoUrl": "https://github.com/kimjw0623/lol_champ_embedding/",
       "isTeam": false,
       "period": ["2022. 07", "2022. 09"],
@@ -33,12 +33,12 @@
     {
       "id": 1,
       "name": "Synctube",
-      "description": "사람들과 하나의 Youtube 영상을 동시에 같이 시청 가능한 서비스",
+      "description": "원하는 그룹의 사람들과 동시에 Youtube 영상을 시청할 수 있는 서비스",
       "webUrl": "https://github.com/kimjw0623/",
       "repoUrl": "https://github.com/kimjw0623/synctube-implementation/",
       "isTeam": false,
       "period": ["2024. 3", "2024. 6"],
-      "stack": ["JavaScript", "HTML/CSS", "Express"]
+      "stack": ["JavaScript", "HTML/CSS", "Express", "PostgreSQL", "Bootstrap"]
     }
   ],
 

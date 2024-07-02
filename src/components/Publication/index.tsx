@@ -1,9 +1,9 @@
 import SectionTitle from "../SectionTitle";
 import PublicationItem from "./PublicationItem";
 
-import { DataProps } from "@/types";
+import { PublicationProps } from "@/types";
 
-const Publication = ({ publication }: Pick<DataProps, "publication">) => {
+const Publication = ({ publication }: Pick<PublicationProps, "publication">) => {
   return (
     <div>
       <SectionTitle>Publications</SectionTitle>
