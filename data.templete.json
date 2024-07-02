@@ -21,6 +21,15 @@
     }
   ],
 
+  "publication": [
+    {
+      "id": 0,
+      "name": "",
+      "position": "",
+      "period": ["", ""]
+    }
+  ],
+
   "project": [
     {
       "id": 0,
