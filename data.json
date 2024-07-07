@@ -8,7 +8,8 @@
     "contact": [
       { "id": 0, "name": "Email", "href": "rlawjddn0623@gmail.com", "isEmail": true },
       { "id": 1, "name": "Github", "href": "https://github.com/kimjw0623" }
-    ]
+    ],
+    "imgSrc": "/images/project/0.png"
   },
 
   "workExperience": [
