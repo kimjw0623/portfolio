@@ -7,7 +7,7 @@ import { WorkExperienceProps } from "@/types";
 const WorkExperienceItem = ({ name, position, period, markdown, imgSrc }: WorkExperienceProps) => {
   return (
     <div className="flex flex-col md:flex-row gap-6 md:gap-1">
-      <div className="flex justify-center md:flex-col items-center md:items-start mr-4 gap-6">
+      <div className="flex justify-start items-center md:flex-col md:items-start md:justify-center gap-6">
         {/* {imgSrc && (
           <Image
             src={imgSrc}

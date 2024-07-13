@@ -55,14 +55,14 @@
   "education": [
     {
       "id": 0,
-      "name": "KAIST 전산학부 학사과정",
-      "period": ["2017. 03", "2021. 02"],
+      "name": "M.S. in KAIST School of Computing",
+      "period": "2017. 03 ~ 2021. 02, (GPA: 3.92 / 4.3)",
       "description": ""
     },
     {
       "id": 1,
-      "name": "KAIST 전산학부 석사과정",
-      "period": ["2021. 03", "2023. 02"],
+      "name": "B.S. in KAIST School of Computing",
+      "period": "2021. 03 ~ 2023. 02, (GPA: 3.58 / 4.3)",
       "description": "Computer Vision and Machine Learning"
     }
   ],
@@ -71,7 +71,7 @@
     {
       "id": 0,
       "name": "Certified Kubernetes Administrator (CKA)",
-      "date": "2024. 02. 20",
+      "date": "2024. 02",
       "organizer": "Linux Foundation"
     }
   ],

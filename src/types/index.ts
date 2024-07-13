@@ -70,7 +70,7 @@ export interface DataProps {
     id: number;
     name: string;
     description: string;
-    period: string[];
+    period: string;
   }[];
   certificate: {
     id: number;
