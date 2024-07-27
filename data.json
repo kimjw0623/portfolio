@@ -24,8 +24,8 @@
   "project": [
     {
       "id": 0,
-      "name": "LOL Champion Embedding",
-      "description": "게임 내 챔피언들을 유저의 선호도에 따라 clustring 하는 프로젝트",
+      "name": "Game Character Embedding",
+      "description": "게임 내 캐릭터들을 유저의 선호도에 따라 클러스터링 하는 프로젝트",
       "repoUrl": "https://github.com/kimjw0623/lol_champ_embedding/",
       "isTeam": false,
       "period": ["2022. 07", "2022. 09"],
